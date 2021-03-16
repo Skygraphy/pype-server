@@ -20,7 +20,6 @@ const env = {
         mountPath: process.env.PARSE_SERVER_MOUNT_PATH || '/parse',
         publicServerURL: process.env.PARSE_SERVER_PUBLIC_SERVER_URL || 'http://localhost:1337/parse',
         serverURL: process.env.PARSE_SERVER_SERVER_URL || 'http://localhost:1337/parse',
-        // verifyUserEmails: process.env.PARSE_SERVER_VERIFY_USER_EMAILS || false
         verifyUserEmails: false
     }
 };
